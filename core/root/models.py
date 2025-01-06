@@ -14,6 +14,6 @@ class Contact(models.Model):
     
 class Category(models.Model):
     title = models.CharField(max_length=155, verbose_name="Kategoriya")
-
+    
     def __str__(self) -> str:
         return self.title
